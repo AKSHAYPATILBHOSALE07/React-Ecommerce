@@ -27,11 +27,11 @@ const NavBar = ({ background }) => {
         <nav>
           <ul className="nav-container">
             <li>
-              <Link to="/">Inicio</Link>
+              <Link to="/">Beginning</Link>
             </li>
             <li className="products-item">
               <Link to="/products">
-                Productos <span className="arrow"></span>
+                Products <span className="arrow"></span>
               </Link>
             </li>
             <li>
