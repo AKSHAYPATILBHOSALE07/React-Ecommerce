@@ -19,7 +19,7 @@ const Hero = ({ title }) => {
             className="button-primary"
             onClick={() => history.push('/products')}
           >
-            Comprar
+            Purchase
           </button>
         </article>
       </div>
