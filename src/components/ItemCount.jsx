@@ -6,7 +6,7 @@ import './styles/ItemCount.css';
 
 
 const ItemCount = ({ initial, stock, onAdd }) => {
-  //hook de estado
+  
   const [qty, setQty] = useState(initial);
   const [showButton, setshowButton] = useState(false);
 

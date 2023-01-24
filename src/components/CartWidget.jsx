@@ -7,14 +7,14 @@ import './styles/CartWidget.css';
 import { CartContext } from '../context/CartContext';
 
 const CartWidget = () => {
-  //la lógica va siempre antes del return
+  //the logic always goes before the return
 
   const cartContext = useContext(CartContext);
   const { cart } = cartContext;
 
   return (
     <div className="cart-widget">
-      {/* Acá puede ir cualquier ícono que quieran. En mi caso, estoy usando FontAwesome para React JS. */}
+      {/* Any icon you want can go here. In my case, I'm using FontAwesome for React JS. */}
       <FontAwesomeIcon icon={faBeer} size="2x" color="white" />
       <div className="qty-display">{cart.length}</div>
     </div>

@@ -35,7 +35,7 @@
   max-width: 360px;
 }
 
-/*Voy a incluir mis mediaqueries acá*/
+/*I'm going to include my mediaqueries here*/
 
 @media only screen and (min-width: 800px) {
   .hero-container {
