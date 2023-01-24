@@ -6,7 +6,6 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 import './styles/NavBar.css';
 
-
 const NavBar = ({ background }) => {
   //Declaro una variable donde voy a almacenar la ruta de la imagen que quiero mostrar
   const brand =
@@ -14,12 +13,10 @@ const NavBar = ({ background }) => {
   //la lógica va siempre antes del return
   return (
     <header className={`header background--${background}`}>
-      
       <div className="header-container">
-        
         {/* Botón de menú  */}
         <div className="menu-button">
-          <FontAwesomeIcon icon={faBars} size="lg" color="white"/>
+          <FontAwesomeIcon icon={faBars} size="lg" color="white" />
           <span>Menu</span>
         </div>
 
@@ -38,7 +35,7 @@ const NavBar = ({ background }) => {
               <Link to="/blog">Blog</Link>
             </li>
             <li>
-              <Link to="/contacto">Contacto</Link>
+              <Link to="/contact">Contact</Link>
             </li>
           </ul>
         </nav>
@@ -54,7 +51,6 @@ const NavBar = ({ background }) => {
         <Link to="/cart">
           <CartWidget />
         </Link>
-          
       </div>
     </header>
   );
