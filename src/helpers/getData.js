@@ -16,7 +16,7 @@ const getAllProductsFromDB = async (setState) => {
     setState(result);
   } catch (error) {
     console.log(error);
-    alert('No podemos mostrar los productos en este momento');
+    alert('We are unable to display products at this time.');
   }
 };
 
